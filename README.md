@@ -93,4 +93,4 @@ Our original prompt text, documentation and framework image are licensed under *
 
 ## Versioned citation
 
-Version **v1.0** is the citable release of this prompt collection. Use the [tagged release](https://github.com/ahmedjlidi/web-agent-evaluator-prompts/releases/tag/v1.0) instead of the moving `main` branch. Citation metadata is provided in [CITATION.cff](CITATION.cff). The Zenodo archive metadata accompanies the release; a DOI must be taken from the published Zenodo record, not inferred from the GitHub tag.
+Version **v1.0** is the citable release of this prompt collection. Use the [tagged release](https://github.com/ahmedjlidi/web-agent-evaluator-prompts/releases/tag/v1.0) instead of the moving `main` branch. Citation metadata is provided in [CITATION.cff](CITATION.cff).
