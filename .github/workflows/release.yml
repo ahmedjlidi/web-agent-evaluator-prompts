@@ -1,0 +1,28 @@
+name: Publish versioned prompt release
+on:
+  push:
+    branches: [main]
+    paths: [VERSION, .github/workflows/release.yml]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+      - name: Validate prompts and links
+        run: python3 scripts/validate.py
+      - name: Publish v1.0 at the checked commit
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -eu
+          test "$(cat VERSION)" = "1.0"
+          if gh release view v1.0 --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            echo "v1.0 already exists; it will not be moved or replaced."
+          else
+            gh release create v1.0 --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" --title "v1.0 — Evaluator prompt collection" --notes-file RELEASE_NOTES.md
+          fi

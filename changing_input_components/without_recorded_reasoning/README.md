@@ -1,6 +1,6 @@
 # Without recorded reasoning
 
-Group 5; Appendix B.6, prompt 46.
+Changing input components; Appendix B.6, prompt 46.
 
 Reuse the baseline system and user template, substituting prompt 46 for the original repeated step template. Preserve URLs, actions, answers embedded in actions, the task and the final screenshot. Add no warning. Internal evaluator thinking settings and recorded actor reasoning are different channels.
 

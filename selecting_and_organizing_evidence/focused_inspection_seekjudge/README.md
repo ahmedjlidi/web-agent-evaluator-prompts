@@ -1,6 +1,6 @@
 # Focused inspection with SeekJudge
 
-Group 2; Appendix B.4, prompts 34–45.
+Selecting and organizing evidence; Appendix B.4, prompts 34–45.
 
 Describe task images if present (34), condense adjacent states (35–36), and ground actions in the earlier state (37–40). Use the circled variant for recognized action coordinates. The controller (43–44) can call AnalyseAgent (41–42, analyse_agent_tool.json) for selected observations. Then substitute the evidence packet (45) for last_actions in the unchanged baseline user template; attach the final screenshot and use the baseline system prompt for the binary judgment. Do not inject the controller conclusion or sub-scores into that final packet. The learned SeekJudge calibrator is not used.
 

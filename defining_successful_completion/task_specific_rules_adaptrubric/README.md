@@ -1,6 +1,6 @@
 # Task-specific rules
 
-Group 1; Appendix B.3, prompts 12–24.
+Defining successful completion; Appendix B.3, prompts 12–24.
 
 Run the router (12), choose a rule family (17–24), generate zero to two optional cues (13), then verify (14). Every call is a user message without an invented system prompt. The cue generator receives the selected critical_items.txt. The verifier receives the selected verification_steps.txt, common_pitfalls.txt and special_rules.txt, plus optional prompt 15. special_rules.txt already includes META RULE and prompt 16: do not append those twice. For NO_HINT omit the entire attention block; with one cue omit its unused second bullet. The final screenshot follows verifier text. SCORE is the prediction; the other output fields are diagnostics.
 

@@ -1,6 +1,6 @@
 # Task reference images
 
-Group 5; Appendix B.6, prompt 47.
+Changing input components; Appendix B.6, prompt 47.
 
 Keep baseline prompts 1–3 unchanged, including recorded reasoning and the final execution screenshot. Append separate task-image labels and attachments as prompt 47 shows. The frozen subset contains 123 VisualWebArena trajectories, 34 of which have task reference images. This appendix experiment uses those 34, not all 123. Expanded cohorts require their own identity lists. Execution screenshots are not reference images.
 

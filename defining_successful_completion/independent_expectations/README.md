@@ -1,6 +1,6 @@
 # Independent expectations
 
-Group 1; Appendix B.3, prompts 8–11.
+Defining successful completion; Appendix B.3, prompts 8–11.
 
 The generator sees the task, available task images and first execution screenshot; it sees no actions, actor reasoning, later states or final answer. Add prompt 10 before the baseline output instructions and insert the saved description through prompt 11 before the final screenshot. The description is guidance, not proof or an extra requirement. The second paragraph of prompt 10 is our addition. This is the SGV first-pass principle, not the complete SGV evaluator.
 

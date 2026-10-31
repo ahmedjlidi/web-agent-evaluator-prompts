@@ -1,6 +1,6 @@
 # Requirements checklist
 
-Group 1; Appendix B.3, prompts 4–7.
+Defining successful completion; Appendix B.3, prompts 4–7.
 
 Extract conditions from original task text only with prompts 4–5. Save the list separately. Insert prompt 6 before the baseline output instructions; judging_system_complete.txt is the resulting complete system prompt. Insert prompt 7 after the original step history and before the final screenshot. Do not replace or rewrite the task.
 

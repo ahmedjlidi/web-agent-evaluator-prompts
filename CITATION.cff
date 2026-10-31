@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "Please cite the versioned release of this prompt collection."
+title: "Web Agent Evaluator Component Study: Prompts and Input Construction"
+authors:
+  - family-names: "AlKulaib"
+    given-names: "Lulwah"
+  - family-names: "Jlidi"
+    given-names: "Ahmed"
+version: "1.0"
+date-released: "2026-10-31"
+type: software
+url: "https://github.com/ahmedjlidi/web-agent-evaluator-prompts/releases/tag/v1.0"
+repository-code: "https://github.com/ahmedjlidi/web-agent-evaluator-prompts"
+license: "CC-BY-4.0 AND MIT"

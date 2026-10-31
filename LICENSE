@@ -1,0 +1,19 @@
+Licensing scope
+===============
+
+Copyright (c) 2026 Web Agent Evaluator Component Study contributors.
+
+1. Our original prompt text, documentation, metadata and framework image:
+   Creative Commons Attribution 4.0 International (CC BY 4.0).
+   Full text: LICENSES/CC-BY-4.0.txt
+   https://creativecommons.org/licenses/by/4.0/
+
+2. Our original Python code in scripts/ and message_assembly.py files:
+   MIT License. Full text: LICENSES/MIT.txt
+
+3. Third-party prompts, excerpts and code:
+   Their existing copyright and license conditions are unchanged. These grants
+   apply only to rights held in our own original contributions, not to material
+   copied from upstream projects. See THIRD_PARTY_NOTICES.md and prompt_index.json
+   for attribution and per-file sources. Upstream rights take precedence for
+   copied content; no relicensing of upstream material is asserted.

@@ -1,6 +1,6 @@
 # Screenshot selection with WebJudge
 
-Group 2; Appendix B.4, prompts 25–31.
+Selecting and organizing evidence; Appendix B.4, prompts 25–31.
 
 Extract key points (25–26); score each screenshot (27–28); keep score >=3, taking the first 50 eligible frames in chronological order. The final screenshot is not forced into this set. Judge with 29–30, or use 31 when none qualifies. Reference images are supplied when available, in a user message introduced by The input images are:. The thoughts placeholder contains the screenshot scorer explanations, not the actor reasoning. Use the corrected action history retaining send_msg_to_user verbatim in its original position. action_thoughts stays empty.
 
