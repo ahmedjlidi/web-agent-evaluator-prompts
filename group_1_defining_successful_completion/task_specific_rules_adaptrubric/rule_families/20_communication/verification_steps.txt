@@ -1,0 +1,4 @@
+VERIFICATION STEPS:
+- Check source content.
+- Check recipient and channel.
+- Check post-send evidence instead of treating a draft as sent.

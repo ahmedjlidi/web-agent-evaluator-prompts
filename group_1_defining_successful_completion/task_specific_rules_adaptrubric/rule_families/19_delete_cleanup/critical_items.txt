@@ -1,0 +1,3 @@
+R1: Correct Target / Scope Identified (critical)
+R2: Deletion Confirmed (critical)
+R3: Final-State Absence / Count Verified (critical)

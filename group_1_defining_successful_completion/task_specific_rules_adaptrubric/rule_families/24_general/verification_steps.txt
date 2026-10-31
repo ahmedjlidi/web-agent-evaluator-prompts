@@ -1,0 +1,5 @@
+VERIFICATION STEPS:
+- Reconstruct the user's intended outcome.
+- Check end-state evidence.
+- Check action-visual consistency.
+- Use conservative judgment under genuine ambiguity.

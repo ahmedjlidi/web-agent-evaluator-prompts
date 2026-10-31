@@ -1,0 +1,4 @@
+COMMON PITFALLS:
+- Compose screen remains visible, so the message may be unsent.
+- Wrong recipient or wrong channel.
+- Visible sent bubble has different content.

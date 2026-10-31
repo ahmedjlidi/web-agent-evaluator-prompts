@@ -1,0 +1,4 @@
+COMMON PITFALLS:
+- Correct content but wrong requested format.
+- Answer hallucinated from memory rather than screen evidence.
+- Wrong count or list item due to misreading visible content.

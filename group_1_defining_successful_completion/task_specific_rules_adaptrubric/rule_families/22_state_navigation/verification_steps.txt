@@ -1,0 +1,4 @@
+VERIFICATION STEPS:
+- Check the final-frame state.
+- Check persistence of the requested state or view.
+- Avoid requiring side effects not requested by the instruction.

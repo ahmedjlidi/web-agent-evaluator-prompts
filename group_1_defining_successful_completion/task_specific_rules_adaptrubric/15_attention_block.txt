@@ -1,0 +1,16 @@
+TASK-SPECIFIC ATTENTION CUES (focus aids -- NOT additional pass/fail items):
+The bullets below highlight aspects of THIS task that are worth attending to.
+They guide where to look; they do NOT add pass/fail requirements beyond the
+task instruction itself, and they do NOT override the META RULE above.
+- {cue_1}
+- {cue_2}
+
+CUE USAGE -- REMINDERS THAT OVERRIDE EARLIER WORDING:
+- A cue you cannot confirm in the screenshots is NOT, by itself, a failure.
+  Base the verdict on whether the OVERALL final state satisfies the user's
+  intent in the task instruction -- not on per-cue verifiability.
+- Use EVIDENCE_SUFFICIENT=no only when the OVERALL verdict is uncertain,
+  not when a single cue is unconfirmed but the rest of the evidence agrees.
+- If the final state clearly satisfies the user's intent, prefer SCORE: 1
+  even when one or more cues are visually ambiguous.
+- A cue CLEARLY CONTRADICTED by visible evidence is still a strong FAIL signal.

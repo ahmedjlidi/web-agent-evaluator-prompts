@@ -1,0 +1,19 @@
+Evaluator-generated evidence (not the actor reasoning):
+
+Task reference-image descriptions:
+Image 1: {description_1}
+{one line per task reference image, if any}
+
+Unverified terminal claim / hypothesis ({claim_origin}):
+{claim}
+
+Transition 1 (img0 -> img1):
+{summary_1}
+{one block per transition}
+
+Focused observations returned by AnalyseAgent:
+Inspection 1; img_id={img_id}; query={query}
+{answer}
+{one block per answered inspection}
+
+Inspection-budget diagnostic: {budget_json}. A budget limit is not evidence that the actor failed.

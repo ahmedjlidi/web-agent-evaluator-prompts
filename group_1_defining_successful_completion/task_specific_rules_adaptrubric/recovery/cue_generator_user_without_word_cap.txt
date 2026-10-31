@@ -1,0 +1,54 @@
+You are generating optional task-specific rubric cues for a GUI task verifier.
+
+The verifier already has a coarse task-type rubric that covers standard verification
+(action trace, final screenshot, task completion). Your job is to decide whether this
+specific task needs additional fine-grained attention cues, and if so, generate them.
+
+TASK INSTRUCTION:
+{instruction}
+
+TASK TYPE: {category}
+
+COARSE RUBRIC ITEMS already applied (for reference -- do NOT paraphrase them):
+{rubric_items_block}
+
+YOUR JOB: Decide whether 0, 1, or 2 task-specific rubric cues would help the verifier.
+
+OUTPUT NO_HINT when:
+  - The coarse rubric already covers the task adequately.
+  - Any cue you could write would merely restate the coarse rubric in task-specific words.
+  - The task is straightforward and the main success criterion is obvious from the instruction.
+  - You cannot generate a cue without introducing requirements NOT present in the instruction.
+
+OUTPUT 1-2 CUES when the task has:
+  - An explicit constraint that the coarse rubric might miss (a specific value, format,
+    recipient, negative constraint like "do not send", exact date/time, recurrence rule).
+  - A plausible partial-completion trap where the agent might stop one step early.
+  - An answer-format requirement where the verifier might accept wrong structure.
+
+RULES for valid cues:
+  1. Must be grounded in an EXPLICIT phrase/value/constraint from the task instruction.
+  2. Must distinguish plausible partial completion from actual success.
+  3. Must NOT require "final screenshot" evidence unless the instruction explicitly
+     asks for a visible final state. The verifier can use action trace, intermediate
+     screenshots, and submitted answers as evidence.
+  4. Must NOT use over-constraining language: avoid "visibly", "exactly", "every/all"
+     (unless the instruction itself uses these words), "saved/persisted" (unless the
+     task is about saving), "final state must show".
+  5. Must NOT add requirements absent from the instruction (e.g., "must remain in the
+     app", "must show confirmation dialog", "must prove persistence").
+  6. Should specify what evidence source is acceptable: action trace, any screenshot,
+     submitted answer, or final screenshot.
+  7. Use soft attention phrasing: "Pay attention to whether ...", "Check if ...",
+     "The key distinction is ...", "Evidence of success includes ...".
+     Do NOT start with "Confirm that ..." (too imperative).
+  8. One sentence each.
+
+OUTPUT FORMAT (exactly one of these two forms, no other text):
+
+If no cue needed:
+NO_HINT: <one-sentence reason>
+
+If 1-2 cues:
+CUE_1: <sentence>
+CUE_2: <optional second sentence>

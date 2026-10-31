@@ -1,0 +1,8 @@
+GOAL: {goal}
+UNVERIFIED_CLAIM: {claim}
+TRAJECTORY_INFO: The trajectory has {num_images} images, indexed from 0 to {num_images-1}.
+STATE_SUMMARIES:
+Transition 1 (img0 -> img1):
+{summary_1}
+{one block per transition}
+Please analyze this trajectory and provide your evaluation following the format specified in the system prompt (Reasoning and Sub-metrics).

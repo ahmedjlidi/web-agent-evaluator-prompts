@@ -1,0 +1,4 @@
+
+User Intent: {intent}
+Action History: {last_actions}
+The last snapshot of the web page is shown in the image.

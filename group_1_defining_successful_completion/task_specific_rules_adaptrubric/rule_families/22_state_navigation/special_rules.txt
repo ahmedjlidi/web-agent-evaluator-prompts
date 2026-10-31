@@ -1,0 +1,8 @@
+SPECIAL RULES:
+- The final frame is the primary anchor.
+- Any UI path is acceptable unless a path is specified.
+
+META RULE:
+- Evidence anchors guide attention; they do not add requirements beyond the task instruction.
+- If the final state clearly satisfies the user's intent but a specific anchor cannot be confirmed, prefer PASS unless the instruction made that anchor mandatory.
+- Do not fail for properties the instruction did not state, such as filenames, folders, confirmation toasts, specific phrasing, or cosmetic details.

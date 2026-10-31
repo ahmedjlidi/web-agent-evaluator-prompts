@@ -1,0 +1,4 @@
+COMMON PITFALLS:
+- Passing after one deletion when the instruction says all.
+- Confirmation dialog still visible in the final frame.
+- Deleting a similarly named but wrong item.

@@ -1,0 +1,4 @@
+COMMON PITFALLS:
+- Inventing filename, folder, toast, or UI-path requirements.
+- Only a subset of explicitly required properties is applied.
+- The final frame still shows an uncommitted editor or form.

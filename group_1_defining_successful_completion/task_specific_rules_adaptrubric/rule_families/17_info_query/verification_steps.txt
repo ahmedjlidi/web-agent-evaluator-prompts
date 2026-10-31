@@ -1,0 +1,4 @@
+VERIFICATION STEPS:
+- Check explicit answer-format constraints, if any.
+- Ground content correctness in screenshots from the trajectory.
+- Check answer/submission evidence when the task requires an answer.

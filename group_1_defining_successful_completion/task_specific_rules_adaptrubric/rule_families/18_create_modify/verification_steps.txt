@@ -1,0 +1,4 @@
+VERIFICATION STEPS:
+- Collect only properties explicitly stated in the instruction.
+- Check whether the required properties are reflected in the end state.
+- Check that the edit is not left mid-flight.

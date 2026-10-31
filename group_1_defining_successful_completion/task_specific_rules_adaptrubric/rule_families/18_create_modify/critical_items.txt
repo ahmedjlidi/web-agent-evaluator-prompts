@@ -1,0 +1,3 @@
+R1: Required Properties Set (critical)
+R2: Save / Confirm Action Performed (critical)
+R3: Final State Persisted (critical)

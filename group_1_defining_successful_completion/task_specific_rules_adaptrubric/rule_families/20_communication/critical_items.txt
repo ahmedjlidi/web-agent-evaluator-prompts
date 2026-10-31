@@ -1,0 +1,3 @@
+R1: Source Content Correctness (critical)
+R2: Recipient Correctness (critical)
+R3: Send Action Confirmation (critical)

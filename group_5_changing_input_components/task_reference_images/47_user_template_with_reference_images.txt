@@ -1,0 +1,7 @@
+{baseline user text with the step history}
+[IMAGE: final execution screenshot]
+
+Task reference images supplied with the original instruction (not webpage screenshots):
+Task reference image 1/{number of reference images}:
+[IMAGE: task reference image 1]
+{one label and image per remaining reference image}

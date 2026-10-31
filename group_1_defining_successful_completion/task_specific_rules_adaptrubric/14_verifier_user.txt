@@ -1,0 +1,26 @@
+You are evaluating a GUI task.
+
+TASK: {instruction}
+
+COMPILED EVIDENCE:
+- Agent's submitted answer: {agent_answer}
+- Key text entered by agent: {typed_texts}
+- Key actions performed: {key_actions}
+
+ACTION TRACE:
+{action_trace}
+
+{verification_steps}
+
+{common_pitfalls}
+
+{special_rules}
+
+{additional_attention}
+
+Screenshots (in order) are shown below.
+
+End your response with EXACTLY these three lines (do not add any text after):
+SCORE: [0/1]
+EVIDENCE_SUFFICIENT: [yes/no]
+MISSING_EVIDENCE: [source_missing | sink_missing | final_state_ambiguous | answer_format_mismatch | global_count_unverified | subgoal_unverified | none]

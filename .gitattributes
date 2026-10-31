@@ -1,0 +1,2 @@
+# Preserve literal prompt bytes, including upstream Markdown trailing spaces.
+*.txt -text whitespace=-blank-at-eol

@@ -1,0 +1,26 @@
+[
+  {
+    "type": "function",
+    "function": {
+      "name": "AnalyseAgent",
+      "description": "Retrieves detailed information from a specific image by analyzing its visual content and A11y tree",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "A descriptive query about what information to retrieve"
+          },
+          "img_id": {
+            "type": "integer",
+            "description": "The index of the image to analyze (0-based)"
+          }
+        },
+        "required": [
+          "query",
+          "img_id"
+        ]
+      }
+    }
+  }
+]

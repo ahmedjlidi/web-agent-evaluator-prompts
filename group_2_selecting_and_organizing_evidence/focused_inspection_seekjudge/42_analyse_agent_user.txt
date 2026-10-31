@@ -1,0 +1,11 @@
+QUERY: {query}
+
+Observation data follows (scan ALL of it for matches):
+
+[IMAGE: selected observation]
+
+A11y tree:
+{a11y}
+
+REMINDER — answer this query using ALL matching data from above.
+QUERY: {query}

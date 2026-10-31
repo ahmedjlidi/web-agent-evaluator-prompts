@@ -1,0 +1,22 @@
+You are routing a GUI task to one of 8 rubric families.
+
+TASK INSTRUCTION:
+{instruction}
+
+CATEGORIES (pick exactly one):
+- info_query           : the agent must answer a question by reading screen content (a value, a count, a list, a title)
+- create_modify        : the agent creates a NEW item or edits properties of an EXISTING item (note, event, file, drawing, form field, spreadsheet cell)
+- delete_cleanup       : the agent removes items, uninstalls, clears data, gets rid of content
+- communication        : the agent sends / replies / forwards / shares content to a recipient via a messaging channel
+- transfer             : the agent moves content source -> sink (copy, paste, import, export, clone repo, unzip, save-as to a path)
+- state_navigation     : the agent toggles a setting, configures a preference, changes theme/font/default app, navigates to a specific view
+- composite_workflow   : the instruction lists TWO OR MORE INDEPENDENT sub-goals (different apps, different target objects) connected by "and then", "; then", ";". Sequential steps that all accomplish ONE goal are NOT composite.
+- general              : the task genuinely does not fit any specific family above. Use ONLY as a last resort.
+
+Decision rules:
+1. If two or more categories seem to apply, pick the one matching the PRIMARY outcome the user cares about.
+2. Prefer a specific family over general whenever possible.
+3. composite_workflow requires independent sub-goals, not just multiple sub-steps of one operation.
+
+OUTPUT EXACTLY ONE LINE (no other text, no markdown):
+CATEGORY: <one of info_query | create_modify | delete_cleanup | communication | transfer | state_navigation | composite_workflow | general>

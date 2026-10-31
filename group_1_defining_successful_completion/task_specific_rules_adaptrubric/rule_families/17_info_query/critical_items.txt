@@ -1,0 +1,2 @@
+R1: Answer Format Match (critical)
+R2: Content Correctness (critical)

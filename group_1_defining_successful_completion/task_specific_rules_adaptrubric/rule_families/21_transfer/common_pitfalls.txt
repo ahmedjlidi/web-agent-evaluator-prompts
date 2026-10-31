@@ -1,0 +1,4 @@
+COMMON PITFALLS:
+- Source read but destination left empty.
+- Only a subset transferred when all was required.
+- Manual retype introduces truncation or digit errors.

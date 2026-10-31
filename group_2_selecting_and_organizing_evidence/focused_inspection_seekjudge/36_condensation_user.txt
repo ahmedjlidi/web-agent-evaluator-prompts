@@ -1,0 +1,15 @@
+Here are the two observations to analyze:
+
+IMG1 (earlier state):
+[IMAGE: earlier observation]
+
+A11y tree:
+{a11y_earlier}
+
+IMG2 (later state):
+[IMAGE: later observation]
+
+A11y tree:
+{a11y_later}
+
+Please analyze the visual changes between these two observations.

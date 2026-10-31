@@ -1,0 +1,4 @@
+COMMON PITFALLS:
+- Correct view was only visited mid-trajectory.
+- Toggle was tapped but visual state did not change.
+- Parent page reached instead of the requested sub-page.

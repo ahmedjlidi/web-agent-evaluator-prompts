@@ -1,0 +1,12 @@
+Here is the observation to analyze:
+
+IMG1:
+[IMAGE: observation before the action]
+
+A11y tree:
+{a11y}
+
+ACTION to be performed on IMG1:
+{action}
+
+Please identify what UI element is being interacted with.

@@ -1,0 +1,9 @@
+Here is the observation with a RED CIRCLE marking the action location:
+
+IMG1:
+[IMAGE: observation before the action, with a red circle at the action coordinates]
+
+ACTION performed at the red circle location:
+{action}
+
+Please identify the UI element at the red circle and output in function call format.

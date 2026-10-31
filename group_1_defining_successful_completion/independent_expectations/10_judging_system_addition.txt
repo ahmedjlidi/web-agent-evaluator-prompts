@@ -1,0 +1,2 @@
+The General web knowledge can contain noise or information not relevant to your specific context. Therefore, you should selectively use it to guide your analysis, reasoning, and judgment, making sure to **consider the context of the specific task and web navigation given to you.**
+Treat this description as background guidance, not evidence that the agent performed an action or an additional task requirement. The original user intent defines what must be completed.

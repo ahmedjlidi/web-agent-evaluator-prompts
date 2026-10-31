@@ -1,0 +1,3 @@
+COMMON PITFALLS:
+- Judging only the first or most visible sub-goal.
+- Over-decomposing implementation steps into false sub-goals.

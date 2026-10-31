@@ -1,0 +1,3 @@
+COMMON PITFALLS:
+- Intermediate success but final state drifts elsewhere.
+- Action trace shows intent but no visual corroboration.

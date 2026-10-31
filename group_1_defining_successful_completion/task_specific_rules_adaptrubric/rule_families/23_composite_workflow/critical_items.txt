@@ -1,0 +1,3 @@
+R1: All Sub-goals Identified (critical)
+R2: Each Sub-goal Evidenced (critical)
+R3: No Silent Drop (critical)

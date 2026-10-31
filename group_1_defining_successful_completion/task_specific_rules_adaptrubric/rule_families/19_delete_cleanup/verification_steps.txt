@@ -1,0 +1,5 @@
+VERIFICATION STEPS:
+- Distinguish specific deletion from global cleanup.
+- Check final-state absence or zero remaining matches.
+- Check that any confirmation dialog has been committed.
+- Guard against inferring absence from an unrelated screen.

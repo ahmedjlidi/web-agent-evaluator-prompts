@@ -1,0 +1,5 @@
+VERIFICATION STEPS:
+- Identify source evidence.
+- Check destination evidence.
+- Check content fidelity at the sink.
+- Detect partial or corrupted transfer.

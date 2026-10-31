@@ -1,0 +1,4 @@
+Key Points for Task Completion:
+1. {first saved checklist item}
+2. {second saved checklist item}
+{remaining numbered items}

@@ -1,0 +1,5 @@
+VERIFICATION STEPS:
+- Decompose the instruction into independent checkpoints.
+- Check evidence for each sub-goal using its underlying family logic.
+- Fail when any sub-goal is silently dropped.
+- Treat ordering as required only when the instruction makes it required.

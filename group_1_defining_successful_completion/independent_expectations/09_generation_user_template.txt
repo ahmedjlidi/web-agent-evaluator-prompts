@@ -1,0 +1,7 @@
+## OBJECTIVE: {task}
+## IMAGES: Image {i}: task objective image
+[IMAGE: task reference image {i}]
+{label and image repeated for each task reference image, if any}
+Initial webpage screenshot:
+[IMAGE: first execution screenshot]
+Now please provide your response: how tasks like this are typically accomplished on the web?

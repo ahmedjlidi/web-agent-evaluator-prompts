@@ -1,0 +1,3 @@
+R1: Source Read Verified (critical)
+R2: Destination Reached (critical)
+R3: Content Fidelity (critical)
